@@ -1,0 +1,38 @@
+2026-04-05 14:26:46,756 [INFO] Seeds locked and Logger initialized successfully.
+2026-04-05 14:26:56,060 [INFO] Loaded 22424 precomputed YOLO feature vectors.
+2026-04-05 14:27:53,357 [INFO] Starting Sanity Check 
+2026-04-05 14:27:54,900 [INFO] Sanity Check - Epoch 01 | Loss: 2.3099 | Accuracy: 16%
+2026-04-05 14:27:56,729 [INFO] Sanity Check - Epoch 10 | Loss: 1.8106 | Accuracy: 38%
+2026-04-05 14:27:58,764 [INFO] Sanity Check - Epoch 20 | Loss: 1.3214 | Accuracy: 56%
+2026-04-05 14:28:00,806 [INFO] Sanity Check - Epoch 30 | Loss: 0.7889 | Accuracy: 75%
+2026-04-05 14:28:02,852 [INFO] Sanity Check - Epoch 40 | Loss: 0.3055 | Accuracy: 97%
+2026-04-05 14:28:04,898 [INFO] Sanity Check - Epoch 50 | Loss: 0.1905 | Accuracy: 94%
+2026-04-05 14:28:06,948 [INFO] Sanity Check - Epoch 60 | Loss: 0.1047 | Accuracy: 100%
+2026-04-05 14:28:06,951 [INFO] Sanity Check Complete.
+
+ Final Accuracy achieved: 100%.
+2026-04-05 17:53:32,101 [INFO] EfficientNetMultimodal architecture defined.
+2026-04-05 17:53:36,507 [INFO] Starting Phase 1: Transfer Learning (Frozen EfficientNet Backbone)...
+2026-04-05 18:36:35,379 [INFO] Starting Phase 2: Fine-Tuning (Unfreezing Top Backbone Layers)...
+2026-04-05 19:20:53,862 [INFO] Generating Comprehensive Evaluation Matrix...
+2026-04-05 19:21:14,716 [INFO] 
+Classification Report:
+                          precision    recall  f1-score   support
+
+          Normal Driving       0.99      0.98      0.99       249
+         Texting - Right       0.99      1.00      0.99       227
+Talking on Phone - Right       1.00      0.99      0.99       232
+          Texting - Left       1.00      1.00      1.00       235
+ Talking on Phone - Left       0.99      0.99      0.99       233
+         Operating Radio       1.00      1.00      1.00       231
+                Drinking       0.98      1.00      0.99       232
+         Reaching Behind       1.00      0.99      0.99       200
+         Hair and Makeup       0.97      0.97      0.97       191
+    Talking to Passenger       0.99      0.99      0.99       213
+
+                accuracy                           0.99      2243
+               macro avg       0.99      0.99      0.99      2243
+            weighted avg       0.99      0.99      0.99      2243
+
+2026-04-05 19:21:14,717 [INFO] Classification report text file saved successfully to /kaggle/working/classification_report_transferlearning.txt
+2026-04-05 19:21:15,723 [INFO] Confusion matrix image saved successfully to /kaggle/working/confusion_matrix_transferlearning.png

@@ -1,0 +1,21 @@
+# Core Deep Learning
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Computer Vision & Pose Detection
+opencv-python>=4.8.0
+mediapipe==0.10.14
+ultralytics>=8.1.0
+Pillow>=10.0
+
+# Data Manipulation & Math
+numpy>=1.26.0
+pandas>=2.1.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Machine Learning Metrics & Utilities
+scikit-learn>=1.4.0
+tqdm>=4.66.0
