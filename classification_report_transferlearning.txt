@@ -1,0 +1,18 @@
+Transfer Learning (EfficientNet-B3 + YOLO) Classification Report
+======================================================================
+                          precision    recall  f1-score   support
+
+          Normal Driving       0.99      0.98      0.99       249
+         Texting - Right       0.99      1.00      0.99       227
+Talking on Phone - Right       1.00      0.99      0.99       232
+          Texting - Left       1.00      1.00      1.00       235
+ Talking on Phone - Left       0.99      0.99      0.99       233
+         Operating Radio       1.00      1.00      1.00       231
+                Drinking       0.98      1.00      0.99       232
+         Reaching Behind       1.00      0.99      0.99       200
+         Hair and Makeup       0.97      0.97      0.97       191
+    Talking to Passenger       0.99      0.99      0.99       213
+
+                accuracy                           0.99      2243
+               macro avg       0.99      0.99      0.99      2243
+            weighted avg       0.99      0.99      0.99      2243
