@@ -19,18 +19,12 @@ st.set_page_config(page_title="Distracted Driver Detection", layout="wide")
 
 st.markdown("""
 <style>
-    /* Main typography and colors */
+    /* Main typography */
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     h1, h2, h3 {
-        color: #2c3e50;
         font-weight: 600;
-    }
-    /* Sidebar styling */
-    [data-testid="stSidebar"] {
-        background-color: #f7f9fa;
-        border-right: 1px solid #e1e4e8;
     }
     /* Metric styling */
     [data-testid="stMetricValue"] {
@@ -39,12 +33,13 @@ st.markdown("""
     /* Subtitle styling */
     .subtitle {
         font-size: 1.1rem;
-        color: #7f8c8d;
+        color: var(--text-color);
+        opacity: 0.65;
         margin-bottom: 2rem;
     }
     /* Instruction container */
     .instruction-box {
-        background-color: #f8f9fa;
+        background-color: var(--secondary-background-color);
         border-left: 4px solid #3498db;
         padding: 1rem;
         border-radius: 4px;
