@@ -7,3 +7,4 @@ ENV/
 vids/
 .DL
 .vscode/
+*.streamlit
