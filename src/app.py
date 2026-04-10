@@ -59,10 +59,10 @@ st.markdown("""
 @st.cache_resource
 def load_models():
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    yolo = YOLO('yolov8n-pose.pt')
+    yolo = YOLO('../models/yolov8n-pose.pt')
     effnet = EfficientNetMultimodal(num_classes=10).to(device)
     
-    weights_path = 'Models/best_model_Effnet.pth'
+    weights_path = '../models/best_model_Effnet.pth'
     if not os.path.exists(weights_path):
         st.error(f"System Error: Model weights not found at {weights_path}.")
         st.stop()
