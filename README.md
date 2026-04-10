@@ -236,5 +236,3 @@ Complete training implementation in [notebooks/distracted_driver_detection.ipynb
 - Training loops with validation
 - Inference testing
 - Results analysis
-
----
