@@ -6,9 +6,9 @@ A production-ready deep learning system for real-time driver distraction detecti
 
 ## Team
 
-- Mohamed Elessawy
-- Hesham Yehia
-- Mohamd Abdelmohsen
+- Mohamed Ibrahim Elessawy
+- Hesham Mohamed Yehia
+- Mohamd Abdelmohsen Soliman
 - Ali Abdelmonam
 
 ---
@@ -43,6 +43,9 @@ DL-Final-Project-Distracted-Driver-Detection/
 │   └── multimodal_test.py
 │
 ├── models/                          # Pre-trained weights
+│   ├── Architectures/
+│   │   ├── CNN.png
+│   │   ├── MultimodalCNN.png
 │   ├── best_model_CNN.pth
 │   ├── best_model_Effnet.pth       # Best model (EfficientNet-B3)
 │   ├── best_model_MM.pth
@@ -166,6 +169,8 @@ For fastest setup with free GPU access, use [Kaggle Notebooks](https://www.kaggl
 cd src
 streamlit run app.py
 ```
+### The UI:
+![Alt Text](assets/StreamlitUI.png)
 
 The app launches at `http://localhost:8501` with four input modes:
 
@@ -189,6 +194,7 @@ The app launches at `http://localhost:8501` with four input modes:
 - Real-time webcam stream processing
 - Continuous FPS calculation
 - Toggle-controlled activation
+
 
 ### Model Evaluation Scripts
 
@@ -221,7 +227,9 @@ Detailed metrics: [assets/classification_report_evaluation.txt](assets/classific
 
 Training progress: [assets/training_progress.log](assets/training_progress.log)
 
-Watch live demo: [Google Drive Demo Video](https://drive.google.com/file/d/1Kp_2FwBfI-51b2YSOS4HAh3nZy6scC4m/view)
+Watch video explaining the project: [Project Explanation Video](https://drive.google.com/file/d/1mN6hFQKPTuTTuYNBYrqpDYHxZzZ9RXoW/view?usp=sharing)
+
+Watch live demo: [Demo Video](https://drive.google.com/file/d/1Kp_2FwBfI-51b2YSOS4HAh3nZy6scC4m/view)
 
 ---
 
