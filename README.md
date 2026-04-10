@@ -49,7 +49,7 @@ DL-Final-Project-Distracted-Driver-Detection/
 │   └── yolov8n-pose.pt
 │
 ├── notebooks/                       # Development & analysis
-│   └── Triple_D.ipynb              # Complete training pipeline
+│   └── distracted_driver_detection.ipynb  # Complete training pipeline
 │
 ├── src/                             # Application code
 │   ├── app.py                      # Streamlit web interface
@@ -229,7 +229,7 @@ Watch live demo: [Google Drive Demo Video](https://drive.google.com/file/d/1Kp_2
 
 ### Training Pipeline
 
-Complete training implementation in [notebooks/Triple_D.ipynb](notebooks/Triple_D.ipynb):
+Complete training implementation in [notebooks/distracted_driver_detection.ipynb](notebooks/distracted_driver_detection.ipynb):
 - Data loading and preprocessing
 - Exploratory data analysis
 - EfficientNet-B3 model architecture
